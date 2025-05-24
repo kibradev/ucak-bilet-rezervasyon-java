@@ -51,10 +51,10 @@ public class Main {
                         rezervasyonlar.add(rez);
                         System.out.println("Rezervasyon başarılı!");
                     } else {
-                        System.out.println("Koltuk kalmadı amk!");
+                        System.out.println("Koltuk kalmadı.");
                     }
                 } else {
-                    System.out.println("Yanlış uçuş seçtin aw.");
+                    System.out.println("Yanlış uçuş seçtin.");
                 }
             } else if(secim == 3) {
                 if(rezervasyonlar.isEmpty()) System.out.println("Hiç rezervasyon yok.");
@@ -64,7 +64,7 @@ public class Main {
                 System.out.println("Çıkılıyor...");
                 break;
             } else {
-                System.out.println("Geçersiz seçim, birader.");
+                System.out.println("Geçersiz seçim.");
             }
         }
     }
